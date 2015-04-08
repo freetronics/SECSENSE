@@ -1,0 +1,66 @@
+Security Sensor Shield for Arduino
+==================================
+Copyright 2013 Freetronics Pty Ltd  
+Freetronics site:  www.freetronics.com  
+Freetronics email: info@freetronics.com  
+
+Based on the circuit described in the "Security / Automation Sensors"
+project in the book "Practical Arduino", this shield allows up to 4
+security sensors to be connected with full End-Of-Line (EOL) support to
+detect tampering.
+
+Supported sensors include:
+
+ * PIR (passive infrared) motion detectors.
+ * Microwave motion detectors.
+ * Reed switches.
+ * Glass break detectors.
+ * Gas detectors.
+
+End-Of-Line technology allows the system to detect a variety of events
+using a single cable pair to the sensor, including:
+
+ * Sensor triggered.
+ * Sensor cable cut.
+ * Sensor cable short-circuited.
+ * Sensor housing opened (even when system is disarmed)
+
+Compatible with the Freetronics Eleven, Arduino Uno, and other
+compatible boards based on the same header format.
+
+Features:
+
+ * Supports 4 sensor channels simultaneously.
+ * Sensor power supply connections totally isolated from the Arduino.
+ * Status LED for each sensor channel.
+ * Reset button wired through to Arduino reset pin.
+ * Green "Sensor power on" LED.
+ * Blue "Arduino power on" LED.
+ * Overlay guide where you need it: both top and bottom.
+
+More information is available at:
+
+  http://www.freetronics.com/secsense  
+  http://www.practicalarduino.com/projects/security-sensors
+
+
+INSTALLATION
+------------
+The design is saved as an EAGLE project. EAGLE PCB design software is
+available from www.cadsoftusa.com free for non-commercial use. To use
+this project download it and place the directory containing these files
+into the "eagle" directory on your computer. Then open EAGLE and
+navigate to Projects -> eagle -> SECSENSE.
+
+
+DISTRIBUTION
+------------
+The specific terms of distribution of this project are governed by the
+license referenced below.
+
+
+LICENSE
+-------
+Licensed under the TAPR Open Hardware License (www.tapr.org/OHL).
+The "license" folder within this repository also contains a copy of
+this license in plain text format.
